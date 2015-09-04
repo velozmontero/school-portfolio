@@ -145,6 +145,31 @@ $(document).ready(function () {
         }, 1000, 'easeOutQuart');
         $('.profile-page, .resume-page, .portfolio-page, .contact-page').fadeOut(800);
     });
+    
+    /*  --------------------------------
+         Maximize Services Items Height
+        --------------------------------  */
+    
+    function maximizeHeight() {
+        
+        var minHeight = 0;
+        
+        $('.services').each(function () {
+            
+            var maxHeight = $(this).height();
+            
+            if (maxHeight > minHeight) {
+                minHeight = maxHeight;
+            }
+            
+        });
+        
+        $('.services').height(minHeight);
+    }
+    
+    maximizeHeight();
+    
+    $(window).on('resize', maximizeHeight);
 
     /*  ----------------------------------------
          Tooltip Starter for Social Media Icons
@@ -206,11 +231,18 @@ $(document).ready(function () {
         -----------------------------------------------------  */
 
     $(function () {
-        $(".owl-carousel").owlCarousel({
+        $("#owl-carousel-2").owlCarousel({
             navigation: false, // Show next and prev buttons
             slideSpeed: 200,
             paginationSpeed: 300,
             singleItem: true
+        });
+        
+        $('#owl-carousel-1').owlCarousel({
+            items: 2,
+            itemsDesktop: 2,
+            autoPlay: 3000,
+            slideSpeed: 500
         });
     });
     
@@ -225,7 +257,7 @@ $(document).ready(function () {
             url: "php/contact.php",
             data: $('#contactForm').serialize(),
             success: function (msg) {
-                if(msg == 'SEND') {
+                if (msg == 'SEND') {
                     $('.success').fadeIn();
                     $('.error').fadeOut();
                     $('#contactForm')[0].reset();
@@ -242,7 +274,7 @@ $(document).ready(function () {
          Google Map ( for contact page )
         -------------------------------  */
 
-    $('#google-map').gMap({
+  /*  $('#google-map').gMap({
         latitude: 31.562130,
         longitude: 74.319460,
         maptype: 'TERRAIN',
@@ -268,6 +300,6 @@ $(document).ready(function () {
             streetViewControl: false,
             overviewMapControl: false
         }
-    });
+    }); */
 
 });
