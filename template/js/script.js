@@ -61,7 +61,7 @@ $(document).ready(function () {
 
         var introWidth = $('.introduction').width(),
             introHeight = $('.introduction').height(),
-            bgImage = $('.introduction').find('img'),
+            bgImage = $("#introbg"),
             menuBgImages = $('.menu > div img');
 
         if (introWidth > introHeight) {

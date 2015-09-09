@@ -344,13 +344,24 @@ body {
 .intro-content {
     position: relative;
     z-index: 10;
-    top: 50%;
+    top: 65%;
     opacity: 0.8;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.intro-content-pic {
+       
+   margin: 0;
+   position: absolute;               
+   top: 10%;  
+   width: 30%;
+   height: 30%;    
+   transform: translate(0, -20%);
+   opacity: 0.8;
 }
 
 .intro-content h1 {
