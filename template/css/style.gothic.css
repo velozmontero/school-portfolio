@@ -305,6 +305,9 @@ body {
                       ---------------------*/
 
 /* ( a ) Homepage */
+.product .img-responsive {
+    margin: 0 auto;
+}
 
 .home-page {
     width: 100vw;
@@ -325,7 +328,7 @@ body {
     position: relative;
 }
 
-.introduction img {
+.introduction-img {
     position: absolute;
     top: 0;
     left: 0;
@@ -344,7 +347,7 @@ body {
 .intro-content {
     position: relative;
     z-index: 10;
-    top: 65%;
+    top: 50%;
     opacity: 0.8;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);

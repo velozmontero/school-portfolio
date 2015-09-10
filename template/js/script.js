@@ -274,7 +274,7 @@ $(document).ready(function () {
          Google Map ( for contact page )
         -------------------------------  */
 
-  /*  $('#google-map').gMap({
+    $('#google-map').gMap({
         latitude: 31.562130,
         longitude: 74.319460,
         maptype: 'TERRAIN',
@@ -300,6 +300,6 @@ $(document).ready(function () {
             streetViewControl: false,
             overviewMapControl: false
         }
-    }); */
+    }); 
 
 });

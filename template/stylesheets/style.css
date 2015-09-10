@@ -325,7 +325,7 @@ body {
     position: relative;
 }
 
-.introduction img {
+.introduction-img {
     position: absolute;
     top: 0;
     left: 0;
@@ -344,7 +344,7 @@ body {
 .intro-content {
     position: relative;
     z-index: 10;
-    top: 50%;
+    top: 40%;
     opacity: 0.8;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -548,7 +548,7 @@ body {
 }
 
 .content-container {
-    left: 41.666%;
+    /*left: 41.666%;*/
     position: relative;
     padding: 0;
     background: #f5f5f5;
