@@ -16,7 +16,7 @@
 --------------------------------------------------------
 */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1120px) {
     
     h1 {
         font-size: 45px;
@@ -54,14 +54,24 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 835px) {
     
-    h1 {
-        font-size: 36px;
+    .intro-content h1 {
+        margin-bottom: 0px;
+        font-size: 50px;
     }
     
-    h2 {
-        font-size: 27px;
+    .out{
+        display: none;
+    }
+    
+    .intro-content h2 {
+        margin-top: 0px;
+        font-size: 25px;
+    }
+    
+    .social-media {
+        font-size: 20px;
     }
 }
 
