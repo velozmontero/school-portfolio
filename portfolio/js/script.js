@@ -257,7 +257,7 @@ $(document).ready(function () {
             url: "php/contact.php",
             data: $('#contactForm').serialize(),
             success: function (msg) {
-                if (msg == 'SEND') {
+                if (msg === 'SEND') {
                     $('.success').fadeIn();
                     $('.error').fadeOut();
                     $('#contactForm')[0].reset();
