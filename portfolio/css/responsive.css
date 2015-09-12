@@ -31,13 +31,10 @@
     }
     
     .image-container {
-        height: 500px;
-        position: relative;
-    }
-    
-    
-    .content-container {
-        left: 0;
+        height: 100vh;
+        position: fixed;
+        padding: 0;
+        overflow: hidden;
     }
     
     .main-heading {
@@ -54,8 +51,25 @@
     }
 }
 
-@media only screen and (max-width: 835px) {
+@media only screen and (max-width: 991px) {
     
+ .close-btn {
+        background: url(../images/icon/close_sm.png);
+    }    
+ .content-container {
+        left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    
+    .close-btn {
+        background: url(../images/icon/close_sm.png);
+    }
+    .content-container {
+        left: 0;
+    }
     .intro-content h1 {
         margin-bottom: 0px;
         font-size: 50px;
@@ -77,6 +91,9 @@
 
 @media only screen and (max-width: 650px) {
     
+    .close-btn {
+        background: url(../images/icon/close_sm.png);
+    }
     h1 {
         font-size: 36px;
     }
@@ -122,12 +139,26 @@
 
 @media only screen and (max-width: 480px) {
     
+    .close-btn {
+        background: url(../images/icon/close_sm.png);
+    }
+    
+    .out{
+        display: none;
+    }
+    
+    .social-media {
+        font-size: 20px;
+    }
+    
     .intro-content h1 {
+        margin-bottom: 0px;
         font-size: 36px;
     }
     
     .intro-content h2 {
-        font-size: 30px;
+        margin-top: 0px;
+        font-size: 25px;
     }
     
     .main-heading {
@@ -150,6 +181,66 @@
     
     .contact-form button {
         width: 100%;
+    }
+    
+    .project .buttons a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    
+    .close-btn {
+        background: url(../images/icon/close_sm.png);
+    }
+    
+    .out{
+        display: none;
+    }
+    
+    .social-media {
+        font-size: 15px;
+    }
+    
+    .intro-content h1 {
+        margin-bottom: 0px;
+        font-size: 24px;
+    }
+    
+    .intro-content h2 {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    
+    .main-heading {
+        padding-left: 20px;
+    }
+    
+    .main-heading h1:after {
+        height: 3px;
+    }
+    
+    .image-container {
+        height: 300px;
+    }
+    
+    .story-content div a {
+        display: block;
+        float: none;
+        margin: 5px;
+    }
+    
+    .contact-form button {
+        width: 100%;
+    }
+    
+    
+    .avatar {
+        width: 120px;
     }
     
     .project .buttons a {
