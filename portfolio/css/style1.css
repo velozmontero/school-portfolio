@@ -11,13 +11,13 @@
 
 
 .container-text {
-	width: 700px;
+	width: 600px;
 	margin: 0 auto;
 	background-color: #fff;
 	padding: 2em;
 	-webkit-transform: translateZ(-200px) translateY(-100px) rotateX(20deg) rotateY(-15deg);
-	transform: translateZ(-200px) translateY(-100px) rotateX(20deg) rotateY(-15deg);
-	
+	transform: translateZ(-200px) translateY(-100px) rotateX(15deg) rotateY(-15deg);
+	box-shadow: 20px 20px 50px rgba(0,0,0,0.2);
 	-webkit-transition: -webkit-transform 1s ease;
 	transition: transform 1s ease;
 	outline: 1px solid transparent;
@@ -45,6 +45,17 @@
 	transition: text-shadow 1s ease;
 }
 
+.container-text h6 {
+	font: 8em/0.7 "disco_deckregular", sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	cursor: default;
+	text-shadow: 0 0 1px rgba(0,0,0,.1);
+	-webkit-transition: text-shadow 1s ease;
+	transition: text-shadow 1s ease;
+}
+
 .container-text h1:hover {
 	text-shadow: none;
 }
@@ -52,13 +63,13 @@
 .container-text p {
 	margin: 3em 2em;
 	font-size: 1.25em;
-	color: #3d3b3a;
+	color: #343333;
 }
 
 .container-text p span {
 	display: block;
 	color: #fff;
-	background: #3d3b3a;
+	background: #343333;
 	letter-spacing: 2px;
 	text-align: center;
 	font-weight: bold;
