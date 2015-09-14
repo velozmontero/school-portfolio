@@ -1307,6 +1307,9 @@ body {
                        11 ) Footer 
                       -------------*/
 
+
+/* Burger Menu Handler */
+
 .footer {
     background: #4ac3bf;
     padding: 10px 20px 6px 20px;
@@ -1324,4 +1327,7 @@ body {
     float: right;
     margin: 0;
 }
+
+
+
 
