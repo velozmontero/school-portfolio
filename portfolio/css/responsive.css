@@ -27,7 +27,7 @@
     }
     
     .close-btn {
-        background: url(../images/icon/close_sm.png);
+        background: url(../images/icon/close.png);
     }
     
     .image-container {
@@ -52,6 +52,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  
+    .container-text {
+        
+    }    
     
  .close-btn {
         background: url(../images/icon/close_sm.png);
@@ -190,6 +194,10 @@
         margin: 0;
         font-size: 12px;
     }
+    
+    .avatar {
+        width: 130px;
+    }
 }
 
 @media only screen and (max-width: 361px) {
@@ -203,12 +211,12 @@
     }
     
     .social-media {
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .intro-content h1 {
         margin-bottom: 0px;
-        font-size: 24px;
+        font-size: 18px;
     }
     
     .intro-content h2 {
@@ -249,5 +257,9 @@
         line-height: 30px;
         margin: 0;
         font-size: 12px;
+    }
+    
+    .image-container {
+        height: 100px;
     }
 }

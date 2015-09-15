@@ -513,7 +513,7 @@ body {
                       ------------------*/
 
 .close-btn {
-    background: url(../images/icon/close_sm.png);
+    background: url(../images/icon/close.png);
     z-index: 1000;
     cursor: pointer;
     width: 40px;
@@ -587,8 +587,13 @@ body {
                       ------------------*/
 
 /* ( a ) Story of Glory */
+.vcenter {
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
 
 .profile-page .image-container {
+    position: fixed;
     background: url(../images/background/web_design_3.jpg);
     background-size: cover;
     background-position: bottom;

@@ -11,7 +11,7 @@
 
 
 .container-text {
-	width: 600px;
+	width: 80%;
 	margin: 0 auto;
 	background-color: #fff;
 	padding: 2em;
@@ -24,7 +24,7 @@
 }
 
 .clipped {
-	background: url(../images/background/web_design_3.jpg) no-repeat center center;
+	background: url(../images/background/keyboard.jpg) no-repeat center center;
 	background-size: cover;
 	color: #fff;
 	text-align: center;
@@ -35,12 +35,14 @@
 }
 
 .container-text h1 {
-	font: 25em/0.7 "disco_deckregular", sans-serif;
+    display: block;
+    font-size: 50%;
+	font: 20em/0.7 "disco_deckregular", sans-serif;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 	cursor: default;
-	text-shadow: 0 0 1px rgba(0,0,0,.1);
+	text-shadow: 0 0 1px rgba(0,0,0,.2);
 	-webkit-transition: text-shadow 1s ease;
 	transition: text-shadow 1s ease;
 }
