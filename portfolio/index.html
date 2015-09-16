@@ -179,31 +179,36 @@
         <!--( a ) Profile Page Fixed Image Portion -->
         
         <div class="image-container col-md-5 hidden-xs hidden-sm">
-            <div style="margin: 0 auto; position: relative; padding-top: 8%">
-                <img alt="" src="images/i-am-a-web.png" style=" position: relative; width: 100%; height: 335px;"/>
-                                       
+           
+            <div class="row" style="margin: 0 auto; position: relative; padding-top: 15%">
+                <img alt="" src="images/i-am-a-web.png" style="position: relative; width: 100%; height: 290px;"/>
+            </div> 
+            
             <!-- Jssor Slider Begin -->
-            <div id="slider1_container" style="position: relative; top:2%; z-index:10;" >
+            
+            <div class="row">
+                <div class="col-sm-12">
+                     <div id="slider1_container" style="position: relative; top:0; left:0;z-index:10; height:400px;" >
                  
-                <div u="slides" style="margin: 0 auto; cursor: move; position: absolute; left: 0px; top: 0px; width: 825px; height: 400px;
-                                       
-            overflow: hidden;">
-                    
-                    <div>
-                       <img u="image" border="0" src="images/designer.png"/>
+                        <div id="w-h-slider" u="slides" style="overflow: hidden; height:400px;">
+                            <div id="slide1">
+                               <img u="image" border="0" src="images/designer.png"/> <!-- style="width:500px;height:400px;z-index:11;" -->
+                            </div>
+                            <div id="slide2">
+                               <img u="image" border="0" src="images/developer.png"/>
+                            </div>
+                            <div id="slide3">
+                               <img u="image" border="0" src="images/programmer.png"/>
+                            </div>
+                        </div>
+                         
                     </div>
-                    <div>
-                       <img u="image" border="0" src="images/developer.png"/>
-                    </div>
-                    <div>
-                       <img u="image" border="0" src="images/programmer.png"/>
-                    </div>
-                    
-                </div>
+                </div>  
             </div>
+           
             <!-- Jssor Slider End -->
 
-		</div>
+		   </div>
         </div>
         
         <!--( b ) Profile Page Content -->

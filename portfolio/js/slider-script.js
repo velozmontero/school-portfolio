@@ -41,12 +41,18 @@
 
             //Make the element 'slider1_container' visible before initialize jssor slider.
             $("#slider1_container").css("display", "block");
+            var pw = $("#slider1_container").width();
+            options.$SlideWidth = pw;
+            options.$SlideHeight = pw/10*6;
+            $("#w-h-slider").width(pw);
+            $("#w-h-slider").height(pw/10*6);
             var jssor_slider1 = new $JssorSlider$("slider1_container", options);
 
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizes
             function ScaleSlider() {
                 var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                console.log("calculated slider width is :" + parentWidth);
                 if (parentWidth) {
                     jssor_slider1.$ScaleWidth(parentWidth - 30);
                 }
