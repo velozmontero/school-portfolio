@@ -52,7 +52,7 @@
             //you can remove responsive code if you don't want the slider scales while window resizes
             function ScaleSlider() {
                 var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
-                console.log("calculated slider width is :" + parentWidth);
+                
                 if (parentWidth) {
                     jssor_slider1.$ScaleWidth(parentWidth - 30);
                 }

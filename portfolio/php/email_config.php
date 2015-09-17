@@ -1,10 +1,10 @@
 <?php
 	
 	//your email here
-	$to_email = 'mail@example.com';
+	$to_email = 'velozmontero@gmail.com';
 	
 	//subject of email you will receive
-	$subject = 'Contact from your website';	
+	$subject = 'Contact from your Portfolio';	
 	
 	//Error Messages
 	$invalid_name = 'Please enter your name.';

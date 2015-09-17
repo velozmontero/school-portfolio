@@ -180,7 +180,7 @@
         
         <div class="image-container col-md-5 hidden-xs hidden-sm">
            
-            <div class="row" style="margin: 0 auto; position: relative; padding-top: 15%">
+            <div class="row" style="margin: 0 auto; position: relative; padding-top: 20%">
                 <img alt="" src="images/i-am-a-web.png" style="position: relative; width: 100%; height: 290px;"/>
             </div> 
             
@@ -977,7 +977,7 @@
             <!--( A ) Contact Form -->
             
             <div>
-                <h2 class="small-heading">SAY HELLO!</h2>
+                <h2 class="small-heading">CONTACT ME!</h2>
                 
                 <div class="contact-form col-sm-11 clearfix">
                     
@@ -1005,14 +1005,14 @@
                                 <button class="submit active">SEND</button>
                             </div>
                             
-                            <div class="error col-xs-12">
-                                <h3></h3>
+                            <div class="error col-xs-12 hidden" id="err-box" name="err-box">
+                                <h3 id="err-msg" name="err-msg"></h3>
                             </div>
                             
                             <!-- Error Message [ END ] -->
                             
-                            <div class="success col-xs-12">
-                                <h3>Success! Your message was sent.</h3>
+                            <div class="success col-xs-12 hidden" id="success-box" name="success-box">
+                                <h3 id="err-msg" name="err-msg"></h3>
                             </div>
                             
                             <!-- Submit Button [ END ] -->
@@ -1116,10 +1116,10 @@
     <!------------- 
     9 ) Javascript
     --------------->
-
-    <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
     
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    
+    <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
     
      <script type="text/javascript" src="library/jquery-easing/jquery.easing.min.js"></script>
     
@@ -1142,6 +1142,7 @@
     <script type="text/javascript" src="js/script.js"></script>
     
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    
     <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
      
     <script type="text/javascript" src="js/slider-script.js"></script>
