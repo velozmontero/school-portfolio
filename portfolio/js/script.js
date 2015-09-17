@@ -258,10 +258,12 @@ $(document).ready(function () {
             data: $('#contactForm').serialize(),
             success: function (msg) {
                 if (msg === 'SEND') {
+                    $('#success-box').removeClass("hidden");
                     $('.success').fadeIn();
                     $('.error').fadeOut();
                     $('#contactForm')[0].reset();
                 } else {
+                    $('#err-box').removeClass("hidden");
                     $('.success').fadeOut();
                     $('.error').fadeIn().find('h3').text(msg);
                 }
@@ -275,15 +277,15 @@ $(document).ready(function () {
         -------------------------------  */
 
     $('#google-map').gMap({
-        latitude: 31.562130,
-        longitude: 74.319460,
+        latitude: 25.766004,
+        longitude: -80.191791,
         maptype: 'TERRAIN',
         scrollwheel: false,
         zoom: 14,
         markers: [
             {
-                latitude: 31.562130,
-                longitude: 74.319460,
+                latitude: 25.766004,
+                longitude: -80.191791,
                 html: "I am Here!",
                 icon: {
                     image: "images/icon/map_marker.png",
