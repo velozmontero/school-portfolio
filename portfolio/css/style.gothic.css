@@ -594,7 +594,7 @@ body {
 
 .profile-page .image-container {
     position: fixed;
-    background: url(../images/background/profile_image4.jpg);
+    background: url(../images/background/profile_image.jpg);
     background-size: cover;
     background-position: bottom;
 }
@@ -933,9 +933,9 @@ body {
 /* ( a ) Portfolio Section */
 
 .portfolio-page .image-container {
-    background: url(../images/background/portfolio_image.jpg);
+    background: url(../images/background/portfolio_image1.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .project-controls {
@@ -1161,9 +1161,9 @@ body {
 /* ( a )  Contact Form */
 
 .contact-page .image-container {
-    background: url(../images/background/keyboard.jpg);
+    background: url(../images/background/contact_image.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: right;
 }
 
 .contact-form {

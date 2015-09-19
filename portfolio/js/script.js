@@ -133,6 +133,10 @@ $(document).ready(function () {
     $('.menu div.contact-btn').on('click', function () {
         $('.contact-page').fadeIn(1200);
     });
+    
+    $('.story-content a').on('click', function () {
+        $('.contact-page').fadeIn(1200);
+    });
 
     // Close Button, Hide Menu
 
