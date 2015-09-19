@@ -235,14 +235,15 @@ $(document).ready(function () {
         -----------------------------------------------------  */
 
     $(function () {
-        $("#owl-carousel-2").owlCarousel({
+        $('#testimonial-slides').owlCarousel({
             navigation: false, // Show next and prev buttons
-            slideSpeed: 200,
-            paginationSpeed: 300,
+            slideSpeed: 1000,
+            paginationSpeed: 1000,
+            autoPlay: 10000,
             singleItem: true
         });
         
-        $('#owl-carousel-1').owlCarousel({
+        $('#').owlCarousel({
             items: 2,
             itemsDesktop: 2,
             autoPlay: 3000,

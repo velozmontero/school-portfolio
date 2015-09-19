@@ -1121,7 +1121,7 @@ body {
     color: #fff;
 }
 
-/*----- Popup Sty;es [ END ] --------*/
+/*----- Popup Styles [ END ] --------*/
 
 /* ( b )  Testimonial Section */
 
@@ -1142,6 +1142,15 @@ body {
     color: #fff;
     font-size: 16px;
     text-align: center;
+}
+
+.testimonials blockquote cite {
+  display:block;
+  font-size:12px;
+  text-align:center;
+  font-style:normal;
+  line-height:18px;
+  color:#3f3f46;
 }
 
 .testimonials-container div div p i {
