@@ -239,7 +239,7 @@ $(document).ready(function () {
             navigation: false, // Show next and prev buttons
             slideSpeed: 1000,
             paginationSpeed: 1000,
-            autoPlay: 10000,
+            autoPlay: 8000,
             singleItem: true
         });
         
