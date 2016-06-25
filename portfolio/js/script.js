@@ -134,8 +134,12 @@ $(document).ready(function () {
         $('.contact-page').fadeIn(1200);
     });
     
-    $('.story-content a').on('click', function () {
+    $('.story-content a.hireme').on('click', function () {
         $('.contact-page').fadeIn(1200);
+    });
+    
+    $('.story-content a.resume').on('click', function () {
+        $('.resume-page').fadeIn(1200);
     });
 
     // Close Button, Hide Menu
